@@ -20,6 +20,8 @@ In the lateral control, the vehicle's position within the lane is continuously c
 
 In the longitudinal control, two cases are distinguished: CC (Cruise Control) and ACC (Adaptive Cruise Control). CC regulates speed using a PI controller, while ACC adjusts the speed to maintain a desired distance from the front vehicle.
 
+<img src="https://github.com/nickpwagner/ue3-lane-keeping-assistant/blob/main/result.gif?raw=true">
+
 
 ## Detailed Description
 
