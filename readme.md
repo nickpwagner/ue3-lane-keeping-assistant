@@ -1,7 +1,8 @@
 # Lane Keeping and Distance Control Simulation C++ with Unreal Engine (Tronis)
 
 ## Summary
-The following only decribes the implemented logic. The environment and physics are modeled and simulated via Unreal Engine.
+The following only decribes the implemented automated driving logic. The environment and physics are modeled and simulated via Unreal Engine.
+<img src="https://github.com/nickpwagner/ue3-lane-keeping-assistant/blob/main/result.gif?raw=true">
 
 ### Lane Detection
 
@@ -19,9 +20,6 @@ Vehicle control involves two parts:
 In the lateral control, the vehicle's position within the lane is continuously compared with the target position, and steering is regulated using a PI controller.
 
 In the longitudinal control, two cases are distinguished: CC (Cruise Control) and ACC (Adaptive Cruise Control). CC regulates speed using a PI controller, while ACC adjusts the speed to maintain a desired distance from the front vehicle.
-
-<img src="https://github.com/nickpwagner/ue3-lane-keeping-assistant/blob/main/result.gif?raw=true">
-
 
 ## Detailed Description
 
